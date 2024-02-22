@@ -6,10 +6,74 @@
     <title>Document</title>
 </head>
 <body>
-    <center>
-    <table border="1">
-        
-    </table>
-    </center> 
+    <table cellpadding="10">
+    <form action="Image1.html" method="">
+        <tr>
+            <td>Enter Name :</td>
+            <td><input type="text" required></td>
+      
+            <td>Enter Password :</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>Enter Email :</td>
+            <td colspan="4"><input type="email" placeholder="Enter Your Email" style="width: 100%;"></td>
+        </tr>
+        <tr>
+            <td>Enter DOB :</td>
+            <td><input type="date" style="width: 100%;"></td>
+        </tr>
+        <tr>
+            <td>Student Status :</td>
+            <td><input type="text" value="Active" readonly></td>
+        </tr>
+        <tr>
+            <td>Select Color :</td>
+            <td><input type="color"></td>
+        </tr>
+        <tr>
+            <td>Gender :</td>
+            <td>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </td>
+        </tr>
+        <tr>
+            <td>Select Hobbies :</td>
+            <td>
+                <input type="checkbox"> Cricket
+                <input type="checkbox"> Cricket
+                <input type="checkbox"> Cricket
+            </td>
+        </tr>
+        <tr>
+            <td>Address : </td>
+            <td><textarea cols="30" rows="5" style="resize: none;"></textarea></td>
+        </tr>
+        <tr>
+            <td>Select City : </td>
+            <td>
+                <select>
+                    <option value="--Select City--" disabled>--Select City--</option>
+                    <option value="Rajkot">Rajkot</option>
+                    <option value="Ahemdabad">Ahemdabad</option>
+                    <option value="Surat">Surat</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Select Photo :</td>
+            <td><input type="file" multiple></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+            </td>
+        </tr>
+    </form>
+</table>
+       
 </body>
 </html>
