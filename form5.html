@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <table  cellspacing="8">
+    <form action="">
+        <tr>
+            <td>Title</td>
+            <td>Surname*</td>
+            <td>First Name*</td>
+            <td>Father's Name</td>
+            <td>Mother's Name*</td>
+        </tr>
+        <tr>
+            <td>
+                <select>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Mrs.">Mrs.</option>
+                    <option value="Miss.">Miss</option>
+                </select>
+            </td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Gender*</td>
+            <td>Reselect Gender*</td>
+            <td>Date Of Birth*</td>
+            <td>Marital Status*</td>
+            <td>Category*</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="gender">Male<br>
+            <input type="radio" name="gender">Female</td>
+            <td><input type="radio" name="gender">Male<br>
+                <input type="radio" name="gender">Female</td>
+            <td><input type="text">
+            (dd/mm/yyyy)</td>
+            <td><input type="radio" name="name">Marrid
+                <input type="radio" name="name">Unmarrid
+                <input type="radio" name="name">Separated</td>
+            <td>
+                <select name="" id="">
+                    <option value="select" disabled>select</option>
+                    <option value="General">General</option>
+                    <option value="General(EWS)">General(EWS)</option>
+                    <option value="SC">SC</option>
+                    <option value="SEBC">SEBC</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <td>Permanent Address*</td>
+            <td>
+                <textarea cols="20" rows="2" style="width: 100%;"></textarea></td>
+            </tr>
+            <tr>
+        <td>State*</td>
+        <td><select name="" id="" style="width: 100%;">
+            <option value="select" disabled>select</option>
+            <option value="GUJARAT">GUJARAT</option>
+            <option value="MAHARASTRA">MAHARASTRA</option>
+            <option value="BIHAR">BIHAR</option>
+            <option value="KERALA">KERALA</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>District*</td>
+        <td><select name="" id="" style="width: 100%;">
+            <option value="select" disabled>select</option>
+            <option value="Rajkot">Rajkot</option>
+            <option value="Jamnagar">Jamnagar</option>
+            <option value="Morbi">Morbi</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>Taluka*</td>
+        <td><input type="text" style="width: 100%;"></td>
+    </tr>
+    <tr>
+        <td>Pin Code*</td>
+        <td><input type="text" style="width: 100%;"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" style="width: 100%;"></td>
+    </tr>
+</table>
+<hr>
+<table>
+    <tr>
+        <td>Language Proficiency</td>
+        <td>Language</td>
+        <td>Read</td>
+        <td>Write</td>
+        <td>Speak</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="text" placeholder="English" readonly></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="text" placeholder="Hindi" readonly></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="text" placeholder="Gujarati" readonly></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+    </tr>
+</table>
+<hr>
+<center>
+    <input type="file" multiple>
+    <input type="submit">
+</center>
+</form>
+</body>
+</html>
